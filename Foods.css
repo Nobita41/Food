@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,200&family=Poppins:wght@200;300;400&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-shadow: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+
+}
+
+nav .menu {
+    max-width: 1250px;
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu .logo {
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+.menu ul {
+    display: inline-flex;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 7px;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a {
+
+    color: black;
+}
+
+.upperimg{
+    width: 1250px;
+    height: 500px;
+    background: url(common.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+    .upperimg h2{
+        text-align: center;
+        padding:300px 0 0 0;
+        font-size: 80px;
+        color: white;
+    }
+    .middle{
+        width: 1250px;
+        height: 1800px;
+        background: white;
+        margin-top: 50px;
+    
+    }
+    
+    
+    .middleleft2{
+        width: 850px;
+        height: 600px;
+        float: left;
+        margin: 20px 0 0 30px;
+    }
+    .middleleft2 .pizza{
+        width: 250px;
+        height: 550px;
+        
+        float: left;
+        margin: 10px;
+    }
+    
+    .pizza img{
+        width: 250px;
+        height: 300px;
+        border-radius: 5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+     h2{
+        margin: 20px 0 0 10px;
+        color: black;
+    }
+    .pizza img:hover{
+        transform: scale(1.1);
+    }
+    button{
+        margin: 40px 0 0 50px;
+        height: 50px;
+        width: 150px;
+        background: #000;
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    
+    
+    
+    button:hover {
+        color: black;
+        background: #FD5F00;
+    }
+    
+    button i {
+        padding-left: 15px;
+    
+    }
+    
+    
+    .middleleft2 .cake{
+        width: 250px;
+        height: 550px;
+     
+        float: left;
+        margin: 10px;
+    }
+    .cake img{
+        width: 250px;
+        height: 300px;
+        border-radius: 5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .cake img:hover{
+        transform: scale(1.1);
+    }
+    
+    
+    .middleleft2 .dinner{
+        width: 250px;
+        height: 550px;
+      
+        float: left;
+        margin: 10px;
+    }
+    .dinner img{
+        width: 250px;
+        height: 300px;
+        border-radius: 5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .dinner img:hover{
+        transform: scale(1.1);
+    }
+
+
+
+
+    .middleleft2 .dinner1 {
+        width: 250px;
+        height: 550px;
+        border-radius: 5px;
+       
+        float: left;
+        margin: 10px;
+    }
+    .dinner1  img{
+        width: 250px;
+        height: 300px;
+        border-radius: 5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .dinner1 img:hover{
+        transform: scale(1.1);
+    }
+
+    .middleleft2 .dinner2 {
+        width: 250px;
+        height: 550px;
+        border-radius: 5px;
+       
+        float: left;
+        margin: 10px;
+    }
+    .dinner2  img{
+        width: 250px;
+        height: 300px;
+        border-radius: 5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .dinner2 img:hover{
+        transform: scale(1.1);
+    }
+
+    .middleleft2 .dinner3 {
+        width: 250px;
+        height: 550px;
+        border-radius: 5px;
+       
+        float: left;
+        margin: 10px;
+    }
+    .dinner3  img{
+        width: 250px;
+        height: 300px;
+        border-radius: 5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .dinner3 img:hover{
+        transform: scale(1.1);
+    }
+
+
+    .middleleft2 .dinner4 {
+        width: 250px;
+        height: 550px;
+        border-radius: 5px;
+       
+        float: left;
+        margin: 10px;
+    }
+    .dinner4  img{
+        width: 250px;
+        height: 300px;
+        border-radius: 5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .dinner4 img:hover{
+        transform: scale(1.1);
+    }
+
+
+    .middleleft2 .dinner5 {
+        width: 250px;
+        height: 550px;
+        border-radius: 5px;
+       
+        float: left;
+        margin: 10px;
+    }
+    .dinner5  img{
+        width: 250px;
+        height: 300px;
+        border-radius: 5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .dinner5 img:hover{
+        transform: scale(1.1);
+    }
+
+
+
+    .middleleft2 .dinner6 {
+        width: 250px;
+        height: 550px;
+        border-radius: 5px;
+       
+        float: left;
+        margin: 10px;
+    }
+    .dinner6  img{
+        width: 250px;
+        height: 300px;
+        border-radius: 5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .dinner6 img:hover{
+        transform: scale(1.1);
+    }
+    .middleright{
+        width: 300px;
+        height: 1200px;
+        float: left;
+        margin-top: 20px;
+       background: #F8F9FA;
+    }
+    .middleright h3{
+        text-align: center;
+        color: black;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    
+    .middleright img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 20px 0 0 65px;
+    
+    }
+    .middleright p{
+        max-width: 200px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+   
+    .page3left{
+        width: 950px;
+        height:520px;
+        background: white;
+        margin: 10px 0 0 25px;
+        float: left;
+    
+    }
+    
+    
+    .page3  .page2right{
+        width: 250px;
+        height:550px;
+        background: #F8F9FA;
+        float: left;
+    }
+    .pgrig1{
+        width: 230px;
+        height: 150px;
+        border-radius: 5px;
+        background-image: url(right1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        margin: 50px 0 0 30px;
+    }
+    .pgrig1 .rightimage{
+        width: 230px;
+        height: 150px;
+    }
+    .rightimage p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+        color: white;
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+    
+    }
+    
+      
+    .page2right h3{
+        text-align: center;
+    }
+    .pgrig2{
+        width: 230px;
+        height: 150px;
+        border-radius: 5px;
+        background-image: url(right2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        margin: 50px 0 0 30px;
+    }
+    .pgrig2 .rightimage{
+        width: 230px;
+        height: 150px;
+    }
+    .rightimage p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+        color: white;
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+    
+    }
+    
+      
+    
+    
+    
+    .pgrig3{
+        width: 230px;
+        height: 150px;
+        border-radius: 5px;
+        background-image: url(right3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 50px 0 0 30px;
+    }
+    .pgrig3 .rightimage{
+        width: 230px;
+        height: 150px;
+    }
+    .rightimage p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+        color: white;
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+    
+    }
+    .page5{
+        width: 1250px;
+        height: 250px;
+        background: #F8F9FA;
+        margin-top: 30px;
+    }
+    .page5 h1{
+        text-align: center;
+        padding-top: 20px;
+        font-family: 'Merriweather', serif;
+    }
+    .page5 p{
+        width: 800px;
+        text-align: center;
+        margin-left: 220px;
+        margin-top: 20px;
+    }
+    .page5 input{
+        width: 350px;
+        height: 40px;
+        margin:40px 0 0 350px;
+        font-size: 15px;
+        border-radius: 5px;
+        border-right: none;
+        padding-left: 10px;
+    float: left;
+    }
+    .page5 ::placeholder{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .page5btn{
+        margin: 0px;
+       margin-top: 40px;
+       height: 44px;
+       border-left: none;
+       margin-left: 2px
+    }
+    .container{
+        max-width: 1170px;
+        margin:auto;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    ul{
+        list-style: none;
+    }
+    .footer{
+        background-color: #24262b;
+        padding: 70px 0;
+        margin-top: 50px;
+    }
+    .footer-col{
+       width: 25%;
+       padding: 0 15px;
+    }
+    .footer-col h4{
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+    }
+    .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left:0;
+        bottom: -10px;
+        background-color: #e91e63;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+    .footer-col ul li:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .footer-col ul li a{
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    .footer-col ul li a:hover{
+        color: #ffffff;
+        padding-left: 8px;
+    }
+    .footer-col .social-links a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgba(255,255,255,0.2);
+        margin:0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #ffffff;
+        transition: all 0.5s ease;
+    }
+    .footer-col .social-links a:hover{
+        color: #24262b;
+        background-color: #ffffff;
+    }
+    
+    /*responsive*/
+    @media(max-width: 767px){
+      .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    }
+    @media(max-width: 574px){
+      .footer-col{
+        width: 100%;
+    }
+    }
+    
+    footer p{
+        width: 180px;
+        margin-top: 20px;
+        color:  #bbbbbb;
+        height: 90px;
+    }
+    
+    button{
+        margin: 40px 0 0 50px;
+        height: 50px;
+        width: 150px;
+        background: #000;
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+      
+    
+    
+    
+    button:hover {
+        color: black;
+        background: #FD5F00;
+    }
+    
+    button i {
+        padding-left: 15px;
+    
+    }
+    
